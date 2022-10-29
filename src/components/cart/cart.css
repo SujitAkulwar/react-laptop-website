@@ -50,11 +50,11 @@
     color: black;
     border: 1vh white solid;
     border-radius: 10%;
-    width: auto;
-    height: auto;
-    min-width: 2vh;
-    min-height: 3vh;
+    width: 6vh;
+    height: 6vh;
     margin:  0 6vh;
+    font-size: 3vh;
+    font-weight: 600;
 }
 .buybtn{
     border: 2px white solid;
