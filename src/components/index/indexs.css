@@ -1,0 +1,21 @@
+.indexs{
+    display: flex;
+    justify-content: right;
+    font-size: 3vh;
+    padding-right: 2vh;
+}
+.index{
+    margin: 0 1vh;
+    padding: 0 2vh;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 30px;
+    width: auto;
+    height: 5vh;
+}
+.index:hover,.index:focus{
+    border: 1px white solid;
+    transform: scale(1.2);
+    box-shadow: 1vh 0 white;
+}
