@@ -13,9 +13,9 @@ const Indexs = () => {
       <p className='aboutindex index'>
         ABOUT
       </p>
-      <p className='loginindex index'>
+      {/* <p className='loginindex index'>
         LOGIN
-      </p>
+      </p> */}
       <p  className='contactindex index'>
         CONTACT US
       </p>

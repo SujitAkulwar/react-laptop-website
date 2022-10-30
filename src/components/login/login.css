@@ -1,0 +1,28 @@
+.Loginpage{
+    height: 100%;
+    width: 100%;
+    padding: 10vh 0;
+    margin: auto;
+    text-align: center;
+}
+.LoginTitle{
+    font-size: 10vh;
+    font-weight: 600;
+    letter-spacing: 1vh;
+}
+.LoginBox{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+.LoginInput{
+    width: 70%;
+    font-size: 3vh;
+    text-align: center;
+}
+.LoginInput input{
+    font-size: 3vh;
+    height: 8vh;
+    width: 40vh;
+    padding: 2px;
+}

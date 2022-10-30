@@ -1,0 +1,18 @@
+.contact{
+    font-size: 3vh;
+    font-weight: 800;
+    padding: 10vh 0;
+    text-align: center;
+    font-family: 'Poppins';
+    height: auto;
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.1) , black, rgba(255, 0, 0, 0.1));
+}
+.contacttitle{
+    cursor: default;
+    transition-duration: 0.9s;
+    letter-spacing: 3vh;
+    padding: 5vh 0;
+}
+.link{
+    padding: 10vh 0;
+}

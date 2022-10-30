@@ -5,6 +5,9 @@ import Index from './components/index/indexs'
 import Home from './components/home/home'
 import Cart from './components/cart/cart'
 import About from './components/about/about'
+// import Login from './components/login/login'
+import Contact from './components/contact/contact'
+
 const App = () => {
   return (
     <div className='app'>
@@ -13,6 +16,8 @@ const App = () => {
       <Home />
       <Cart />
       <About />
+      {/* <Login /> */}
+      <Contact />
     </div>
   )
 }
