@@ -3,14 +3,14 @@ import './contact.css'
 
 const Contact = () => {
   return (
-    <div className='contact'>
+    <div className='contact' id='contact'>
       <h1 className='contacttitle'>
         CONTACT US
       </h1>
-        <div className='link'>
-            <a href='www.email.com'>Email</a>
+        <div className='linkbox'>
+            <div className='link'>Email</div>
             <br />
-            <a href='www.facebook.com'>Facebook</a>
+            <div className='link'>Facebook</div>
         </div>
     </div>
   )

@@ -19,3 +19,6 @@
     transform: scale(1.2);
     box-shadow: 1vh 0 white;
 }
+link{
+    text-decoration: none;
+}

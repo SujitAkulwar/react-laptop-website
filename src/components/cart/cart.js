@@ -3,7 +3,7 @@ import './cart.css'
 
 const Cart = () => {
   return (
-    <div className='cart'>
+    <div className='cart' id='cart'>
       <div className='titlecart'>CART</div>
       <img src={require('../../img/1.jpg')} alt={"error"}/>
       <div className='subtitlecart'>No of laptops : </div>
