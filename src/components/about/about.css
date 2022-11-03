@@ -4,7 +4,7 @@
     background: url("../../img/about.jpg");
     background-repeat: no-repeat;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,10 +17,33 @@
     justify-content: center;
     text-align: center;
     letter-spacing: 1vh;
-    padding: 15vh 0 15vh 0;
+    padding: 15vh 0 10vh 0;
 }
 .aboutdetails{
     padding: 0 40vh 20vh 40vh;
     font-size: 2.5vh;
     line-break: auto;
+}
+
+/* mobile */
+@media screen and (max-width: 800px) {
+    
+    .aboutmain{
+        padding: 0;
+        margin: 0;
+    }
+
+    .Abouttitle{
+        font-size: 5vh;
+        font-weight: 700;
+        letter-spacing: 1vh;
+        padding: auto;
+        padding-bottom: 10px;
+        padding: 40px 0 20px 0;
+    }
+    .aboutdetails{
+        padding: 0px 40px 40px 40px;
+        font-size: 2.5vh;
+        line-break: auto;
+    }
 }

@@ -77,3 +77,72 @@
     border: none;
     font-size: auto;
 }
+
+/* mobile */
+@media screen and (max-width: 800px) {
+    .cart img{
+        width: 80%;
+        border-radius: 2vh;
+    }
+    .cart img:hover,.cart img:focus{
+        box-shadow: 0.4vh 0.4vh rgb(150, 150, 150),0.8vh 0.8vh rgb(125, 125, 125),1.2vh 1.2vh rgb(100, 100, 100),1.4vh 1.4vh rgb(75, 75, 75),1.6vh 1.6vh rgb(50, 50, 50),1.8vh 1.8vh rgb(25,25, 25);
+    }
+    .titlecart{
+        letter-spacing: 1vh;
+        transition-duration: 0.4s;
+        padding-bottom: 4vh;
+        font-size: 6vh;
+        font-weight: 700;
+        cursor: default;
+    }
+    .subtitlecart{
+        font-size: 3vh;
+        padding: 2vh 0 1vh 0;
+    }
+    .nooflaptopincart{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding: 4vh 0;
+    }
+    .cartbtn{
+        border: 2px white solid;
+        border-radius: 30%;
+        width: 4.5vh;
+        height: 4.5vh;
+        font-size: 3vh;
+    }
+    .nooflaptopsinput{
+        background-color: white;
+        color: black;
+        border: 1vh white solid;
+        border-radius: 10%;
+        width: 5vh;
+        height: 5vh;
+        margin:  0 6vh;
+        font-size: 2vh;
+        font-weight: 600;
+    }
+    .buybtn{
+        border: 2px white solid;
+        border-radius: 5%;
+        width: 10vh;
+        height: 6vh;    
+        font-size: 2.5vh;
+        font-weight: 600;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .btn{
+        cursor: pointer;
+        transition-duration: 0.3s;
+    }
+    .btn:hover,button:focus{
+        background-color: white;
+        color: black;
+        border: none;
+        font-size: auto;
+    }
+    
+}

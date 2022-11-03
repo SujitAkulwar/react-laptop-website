@@ -23,3 +23,21 @@
     text-rendering: optimizeSpeed;
     transition-duration: 0.6s;
 }
+
+/* mobile */
+@media screen and (max-width: 800px) {
+    .header{
+        font-size: 3.5vh;
+        font-weight: 700;
+    }
+    .headerText{
+        transition-duration: 0.6s;
+        letter-spacing: 1.4vh;
+    }
+    .headerText:hover{
+        transform: skewY(-2deg)scale(1.2);
+        text-rendering: smooth;
+        transition-duration: 0.6s;
+        letter-spacing: 1.2vh;
+    }
+}
