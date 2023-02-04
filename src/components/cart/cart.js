@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import './cart.css'
-
+import Axios from 'axios';
+ 
 const Cart = () => {
  
   const [noofitems , setnoofitems] = useState(1);
@@ -8,6 +9,19 @@ const Cart = () => {
   const thanks=()=>{
     if(noofitems>0){alert("Thanks for buying !!");}
   }
+
+
+  const [data, setdata] = useState("");
+
+  const getdata = async () => {
+    const response = await Axios.get("http://localhost:5000/getdata");
+    setdata(response.data);
+  }
+	useEffect(() => {
+    getdata();
+    console.log('hi');
+	}, []);
+
   return (
     <div className='cart' id='cart'>
       <div className='titlecart'>CART</div>
@@ -23,4 +37,4 @@ const Cart = () => {
   )
 }
  
-export default Cart
+  export default Cart;

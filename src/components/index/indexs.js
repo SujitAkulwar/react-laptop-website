@@ -13,6 +13,9 @@ const Indexs = () => {
   const contact = () =>{
     window.scrollTo(0, 2000);
   }
+  const login = () => {
+    console.log("login");
+  }
   return (
     <div className='indexs'>
       <p className='homepage index' onClick={home}> 
@@ -24,9 +27,9 @@ const Indexs = () => {
       <p className='aboutindex index' onClick={about}>
         ABOUT
       </p>
-      {/* <p className='loginindex index'>
+      <p className='loginindex index' onClick={login}>
         LOGIN
-      </p> */}
+      </p>
       <p className='contactindex index' onClick={contact}>
         CONTACT US
       </p>

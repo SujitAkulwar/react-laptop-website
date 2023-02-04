@@ -5,7 +5,7 @@ import Index from './components/index/indexs'
 import Home from './components/home/home'
 import Cart from './components/cart/cart'
 import About from './components/about/about'
-// import Login from './components/login/login'
+import Login from './components/login/login'
 import Contact from './components/contact/contact'
 import ScrollToTop from "react-scroll-to-top";
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
       <Home />
       <Cart />
       <About />
-      {/* <Login /> */}
+      <Login />
       <Contact />
     </div>
   )
